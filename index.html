@@ -1,11 +1,14 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="links">
         <label for="rd_home">Home</label>
@@ -16,19 +19,20 @@
     </nav>
 
     <div class="scroll">
-        <input type="radio" name="group" id="rd_home" checked="true">
-        <input type="radio" name="group" id="rd_about">
-        <input type="radio" name="group" id="rd_portfolio">
-        <input type="radio" name="group" id="rd_cv">
-        <input type="radio" name="group" id="rd_contact">
+        <input type="radio" class="grupo" id="rd_home" checked="true">
+        <input type="radio" class="grupo" id="rd_about">
+        <input type="radio" class="grupo" id="rd_portfolio">
+        <input type="radio" class="grupo" id="rd_cv">
+        <input type="radio" class="grupo" id="rd_contact">
 
         <section class="sections">
-            <section class="container" id="home"></section>
-            <section class="container" id="about"></section>
-            <section class="container" id="portfolio"></section>
-            <section class="container" id="cv"></section>
-            <section class="container" id="contact"></section>
+            <section class="bloco" id="home"><img src="./images/nodejs.png"></section>
+            <section class="bloco" id="about"><img src="./images/bootstrap.png"></section>
+            <section class="bloco" id="portfolio"><img src="./images/sass.png"></section>
+            <section class="bloco" id="cv"><img src="./images/ruby.png"></section>
+            <section class="bloco" id="contact"><img src="./images/angular.png"></section>
         </section>
     </div>
 </body>
+
 </html>
