@@ -5,34 +5,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    
+    <style >
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .links{
+            width: 100%;
+            height: 50px;
+            position: fixed;
+            display: flex;
+        }
+
+        .links label {
+            padding: 10px 0;
+            flex-grow: 1;
+            cursor: pointer;
+            transition: all .4s;
+            text-align: center;
+            font-family: 'Arial';
+            font-size: 100%;
+            color: #fff;
+        }
+
+        .links label:hover {
+            background-color: rgba(255,255,255,.2);
+        }
+
+        .scroll {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .sections {
+            transition:  all .4s;
+        }
+
+        input {
+            display: none;
+        }
+
+        .bloco {
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        #nodejs {
+            background-color: #7fbd42;
+        }
+
+        #bootstrap {
+            background-color: #69f;
+        }
+
+        #sass {
+            background-color: #faa;
+        }
+
+        #ruby {
+            background-color: #aaa;
+        }
+
+        #angular {
+            background-color: #414950;
+        }
+
+        #rd_bootstrap:checked ~ .sections {
+            margin-top: -100vh;
+        }
+
+        #rd_sass:checked ~ .sections {
+            margin-top: -200vh;
+        }
+
+        #rd_ruby:checked ~ .sections {
+            margin-top: -300vh;
+        }
+
+        #rd_angular:checked ~ .sections {
+            margin-top: -400vh;
+        }
+
+        .bloco img {
+            width: 40%;
+        }
+    </style>
 </head>
 
 <body>
+    
     <nav class="links">
-        <label for="rd_home">Home</label>
-        <label for="rd_about">About</label>
-        <label for="rd_portfolio">Portfolio</label>
-        <label for="rd_cv">Curriculum Vitae</label>
-        <label for="rd_contact">Contact</label>
+        <label for="rd_nodejs">Node JS</label>
+        <label for="rd_bootstrap">Bootstrap</label>
+        <label for="rd_sass">Sass</label>
+        <label for="rd_ruby">Ruby</label>
+        <label for="rd_angular">Angular</label>
     </nav>
 
     <div class="scroll">
-        <input type="radio" class="grupo" id="rd_home" checked="true">
-        <input type="radio" class="grupo" id="rd_about">
-        <input type="radio" class="grupo" id="rd_portfolio">
-        <input type="radio" class="grupo" id="rd_cv">
-        <input type="radio" class="grupo" id="rd_contact">
-
+        <input type="radio" name="grupo" id="rd_nodejs" checked="true">
+        <input type="radio" name="grupo" id="rd_bootstrap">
+        <input type="radio" name="grupo" id="rd_sass">
+        <input type="radio" name="grupo" id="rd_ruby">
+        <input type="radio" name="grupo" id="rd_angular">
+    
         <section class="sections">
-            <section class="bloco" id="home"><img src="./images/nodejs.png"></section>
-            <section class="bloco" id="about"><img src="./images/bootstrap.png"></section>
-            <section class="bloco" id="portfolio"><img src="./images/sass.png"></section>
-            <section class="bloco" id="cv"><img src="./images/ruby.png"></section>
-            <section class="bloco" id="contact"><img src="./images/angular.png"></section>
+            <section class="bloco" id="nodejs"></section>
+            <section class="bloco" id="bootstrap"></section>
+            <section class="bloco" id="sass"></section>
+            <section class="bloco" id="ruby"></section>
+            <section class="bloco" id="angular"></section>
         </section>
     </div>
+
 </body>
 
 </html>
+
+<!-- <section class="bloco" id="nodejs"><img src="nodejs.png"></section>
+<section class="bloco" id="bootstrap"><img src="bootstrap.png"></section>
+<section class="bloco" id="sass"><img src="sass.png"></section>
+<section class="bloco" id="ruby"><img src="ruby.png"></section>
+<section class="bloco" id="angular"><img src="angular.png"></section> -->

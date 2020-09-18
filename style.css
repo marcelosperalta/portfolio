@@ -60,7 +60,7 @@ background-color: #69f;
 background-color: #faa;
 }
 
-#cv {
+#curriculum {
 background-color: #aaa;
 }
 
@@ -76,7 +76,7 @@ margin-top: -100vh;
 margin-top: -200vh;
 }
 
-#rd_cv:checked ~ .sections{
+#rd_curriculum:checked ~ .sections{
 margin-top: -300vh;
 }
 
