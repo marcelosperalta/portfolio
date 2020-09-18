@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav class="links">
+        <label for="rd_home">Home</label>
+        <label for="rd_about">About</label>
+        <label for="rd_portfolio">Portfolio</label>
+        <label for="rd_cv">Curriculum Vitae</label>
+        <label for="rd_contact">Contact</label>
+    </nav>
+
+    <div class="scroll">
+        <input type="radio" name="group" id="rd_home" checked="true">
+        <input type="radio" name="group" id="rd_about">
+        <input type="radio" name="group" id="rd_portfolio">
+        <input type="radio" name="group" id="rd_cv">
+        <input type="radio" name="group" id="rd_contact">
+
+        <section class="sections">
+            <section class="container" id="home"></section>
+            <section class="container" id="about"></section>
+            <section class="container" id="portfolio"></section>
+            <section class="container" id="cv"></section>
+            <section class="container" id="contact"></section>
+        </section>
+    </div>
+</body>
+</html>

@@ -44,9 +44,19 @@ https://github.com/marcelosperalta
 
 - [Caitlyn Greffly](https://caitlyngreffly.com/)
 
+### **References**
+
+- [Tutorial: Navegação One Page com efeito Scroll (sem javascript)](https://www.youtube.com/watch?v=QiI6PbD6Ei4)
+
 ### **Code Reference**
 
 - [Bootstrap](https://getbootstrap.com/)
+
+
+
+
+
+<!-- - [Bootstrap](https://getbootstrap.com/) -->
 
 - [MATERIAL DESIGN](https://material.io/)
 
@@ -63,8 +73,8 @@ https://github.com/marcelosperalta
 - Apple  
 [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/)
 
-- freeCodeCamp  
-[Bootstrap carousel controls color](https://www.freecodecamp.org/forum/t/bootstrap-carousel-controls-color/331196)
+<!-- - freeCodeCamp  
+[Bootstrap carousel controls color](https://www.freecodecamp.org/forum/t/bootstrap-carousel-controls-color/331196) -->
 
 ### **Logos Reference**
 
@@ -78,7 +88,9 @@ https://github.com/marcelosperalta
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-- [Paint 3D](https://www.microsoft.com/de-de/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
+- [Canva](https://www.canva.com/)
+
+<!-- - [Paint 3D](https://www.microsoft.com/de-de/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) -->
 
 ### **Screeshots**
 
