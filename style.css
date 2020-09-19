@@ -3,87 +3,84 @@
     padding: 0;
 }
 
-.links {
-width: 100%;
-height: 50px;
-position: fixed;
-display: flex;
+.links{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
 }
 
 .links label {
-padding: 10px 0;
-flex-grow: 1;
-cursor: pointer;
-transition: all .4s;
-text-align: center;
-font-family: 'Arial';
-font-size: 100%;
-color: #fff;
+    padding: 10px 0;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: all .4s;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 100%;
+    color: #fff;
 }
 
 .links label:hover {
-background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.2);
 }
 
 .scroll {
-display: flex;
-width: 100vw;
-height: 100vh;
-overflow: hidden;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.sections {
-transition:  all .4s;
+.scroll input {
+    display: none;
 }
 
-input {
-display: none;
+.scroll .sections {
+    transition:  all .4s;
 }
 
-.bloco {
-width: 100vw;
-height: 100vh;
-justify-content: center;
-align-items: center;
-display: flex;
+.scroll .sections .content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#home {
-background-color: #7fbd42;
+.scroll .sections #nodejs {
+    /* background-color: lightcoral; */
+    background-color: rgb(47, 43, 43);
 }
 
-#about {
-background-color: #69f;
+#bootstrap {
+    background-color: #69f;
 }
 
-#portfolio {
-background-color: #faa;
+#sass {
+    background-color: #faa;
 }
 
-#curriculum {
-background-color: #aaa;
+#ruby {
+    background-color: #aaa;
 }
 
-#contact {
-background-color: #414950;
+#angular {
+    background-color: #414950;
 }
 
-#rd_about:checked ~ .sections{
-margin-top: -100vh;
+#rd_bootstrap:checked ~ .sections {
+    margin-top: -100vh;
 }
 
-#rd_portfolio:checked ~ .sections{
-margin-top: -200vh;
+#rd_sass:checked ~ .sections {
+    margin-top: -200vh;
 }
 
-#rd_curriculum:checked ~ .sections{
-margin-top: -300vh;
+#rd_ruby:checked ~ .sections {
+    margin-top: -300vh;
 }
 
-#rd_contact:checked ~ .sections{
-margin-top: -400vh;
-}
-
-.bloco img{
-width: 40%;
+#rd_angular:checked ~ .sections {
+    margin-top: -400vh;
 }
