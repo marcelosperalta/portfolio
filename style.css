@@ -51,24 +51,24 @@
     align-items: center;
 }
 
-.scroll .sections #nodejs {
+.scroll .sections #home {
     /* background-color: lightcoral; */
     background-color: rgb(47, 43, 43);
 }
 
-#bootstrap {
+.scroll .sections #bootstrap {
     background-color: #69f;
 }
 
-#sass {
+.scroll .sections #sass {
     background-color: #faa;
 }
 
-#ruby {
+.scroll .sections #ruby {
     background-color: #aaa;
 }
 
-#angular {
+.scroll .sections #angular {
     background-color: #414950;
 }
 
