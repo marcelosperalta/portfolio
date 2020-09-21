@@ -23,7 +23,6 @@
     font-size: 100%;
     color: #fff;
 }
-
 .links label:hover {
     background-color: rgba(255,255,255,.2);
 }
@@ -51,39 +50,31 @@
     align-items: center;
 }
 
-.scroll .sections #home {
-    /* background-color: lightcoral; */
-    background-color: rgb(47, 43, 43);
+.scroll #rd_bootstrap:checked ~ .sections {
+    margin-top: -100vh;
+}
+.scroll #rd_sass:checked ~ .sections {
+    margin-top: -200vh;
+}
+.scroll #rd_ruby:checked ~ .sections {
+    margin-top: -300vh;
+}
+.scroll #rd_angular:checked ~ .sections {
+    margin-top: -400vh;
 }
 
+.scroll .sections #home {
+    background-color: rgb(47, 43, 43);
+}
 .scroll .sections #bootstrap {
     background-color: #69f;
 }
-
 .scroll .sections #sass {
     background-color: #faa;
 }
-
 .scroll .sections #ruby {
     background-color: #aaa;
 }
-
 .scroll .sections #angular {
     background-color: #414950;
-}
-
-#rd_bootstrap:checked ~ .sections {
-    margin-top: -100vh;
-}
-
-#rd_sass:checked ~ .sections {
-    margin-top: -200vh;
-}
-
-#rd_ruby:checked ~ .sections {
-    margin-top: -300vh;
-}
-
-#rd_angular:checked ~ .sections {
-    margin-top: -400vh;
 }
