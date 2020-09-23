@@ -25,6 +25,8 @@
     color: #fff;
     user-select: none;
     text-decoration: none;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.2rem;
 }
 .links label:hover,
 .links .cv:hover {
@@ -55,6 +57,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.scroll .sections .content p {
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    /* margin: 60px auto; */
+    font-family: 'Baloo Thambi 2', cursive;
+    color: indianred;
+}
+.scroll .sections .content p::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .scroll #rd_about:checked ~ .sections {

@@ -71,8 +71,7 @@ https://github.com/marcelosperalta
 
 - [Ícone do site na aba do browser](http://henriquecorrea.com/news/Icone_do_site_na_aba_do_browser)  
 
-<!-- - Apple  
-[Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/) -->
+- [Efeito de Máquina de Escrever com JavaScript](https://www.youtube.com/watch?v=zx2axQoY_YM)  
 
 ### **Tools**
 
