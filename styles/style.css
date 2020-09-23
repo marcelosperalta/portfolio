@@ -12,7 +12,8 @@
     align-items: center;
 }
 
-.links label {
+.links label,
+.links .cv {
     max-width: 10%;
     padding: 10px 0;
     flex-grow: 1;
@@ -23,9 +24,14 @@
     font-size: 100%;
     color: #fff;
     user-select: none;
+    text-decoration: none;
 }
-.links label:hover {
+.links label:hover,
+.links .cv:hover {
     background-color: rgba(255,255,255,.2);
+}
+.links .cv:visited{
+    color: #fff;
 }
 
 .scroll {
