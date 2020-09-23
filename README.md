@@ -8,13 +8,16 @@ I'm a Web Developer.
 I study web development at [DCI](https://digitalcareerinstitute.org/) in Berlin.
 
 ### Skills
+
 - HTML  
 - CSS  
 - JavaScript  
+- React  
+- Node.js  
+- MongoDB  
+- Express  
 
 ## **Portfolio**
-
-#### HTML and CSS
 
 - ["Periodic Table"](https://github.com/marcelosperalta/dci/tree/master/200303)
 - ["Checkers"](https://github.com/marcelosperalta/dci/tree/master/200306)
@@ -38,31 +41,21 @@ https://www.linkedin.com/in/marcelosoaresperalta/
 - GitHub  
 https://github.com/marcelosperalta
 
+### **Logo Reference**
+
+- [LinkedIn](https://brand.linkedin.com/downloads)
+
+- [GitHub](https://github.com/logos)
+
+<!-- - [pngfind](https://www.pngfind.com/mpng/hmbwbh_png-file-svg-icon-email-transparent-png/) -->
+
 ### **Layout Reference**
 
 - [Matthew Williams](http://findmatthew.com)
 
 - [Caitlyn Greffly](https://caitlyngreffly.com/)
 
-### **References**
-
-- [Tutorial: Navegação One Page com efeito Scroll (sem javascript)](https://www.youtube.com/watch?v=QiI6PbD6Ei4)  
-
-- [How to disable text selection highlighting](https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting)  
-
 ### **Code Reference**
-
-- [Bootstrap](https://getbootstrap.com/)
-
-
-
-
-
-<!-- - [Bootstrap](https://getbootstrap.com/) -->
-
-- [MATERIAL DESIGN](https://material.io/)
-
-- [Google Fonts](https://fonts.google.com/)
 
 - [MDN](https://developer.mozilla.org/en-US/)
 
@@ -72,25 +65,26 @@ https://github.com/marcelosperalta
 
 ### **Guidelines**
 
-- Apple  
-[Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/)
+- [How to disable text selection highlighting](https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting)  
 
-<!-- - freeCodeCamp  
-[Bootstrap carousel controls color](https://www.freecodecamp.org/forum/t/bootstrap-carousel-controls-color/331196) -->
+- [Tutorial: Navegação One Page com efeito Scroll (sem javascript)](https://www.youtube.com/watch?v=QiI6PbD6Ei4)  
 
-### **Logos Reference**
+- [Ícone do site na aba do browser](http://henriquecorrea.com/news/Icone_do_site_na_aba_do_browser)  
 
-- [LinkedIn](https://brand.linkedin.com/downloads)
-
-- [GitHub](https://github.com/logos)
-
-- [pngfind](https://www.pngfind.com/mpng/hmbwbh_png-file-svg-icon-email-transparent-png/)
+<!-- - Apple  
+[Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/) -->
 
 ### **Tools**
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 
+- [MATERIAL DESIGN](https://material.io/)
+
+- [Google Fonts](https://fonts.google.com/)
+
 - [Canva](https://www.canva.com/)
+
+- [favicon.cc](https://www.favicon.cc/)
 
 <!-- - [Paint 3D](https://www.microsoft.com/de-de/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) -->
 
