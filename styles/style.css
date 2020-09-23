@@ -60,7 +60,7 @@
 .scroll #rd_cv:checked ~ .sections {
     margin-top: -300vh;
 }
-.scroll #rd_angular:checked ~ .sections {
+.scroll #rd_contact:checked ~ .sections {
     margin-top: -400vh;
 }
 
@@ -76,6 +76,6 @@
 .scroll .sections #cv {
     background-color: #aaa;
 }
-.scroll .sections #angular {
+.scroll .sections #contact {
     background-color: #414950;
 }

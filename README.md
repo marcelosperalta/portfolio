@@ -46,7 +46,9 @@ https://github.com/marcelosperalta
 
 ### **References**
 
-- [Tutorial: Navegação One Page com efeito Scroll (sem javascript)](https://www.youtube.com/watch?v=QiI6PbD6Ei4)
+- [Tutorial: Navegação One Page com efeito Scroll (sem javascript)](https://www.youtube.com/watch?v=QiI6PbD6Ei4)  
+
+- [How to disable text selection highlighting](https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting)  
 
 ### **Code Reference**
 
