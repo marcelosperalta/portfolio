@@ -8,123 +8,31 @@
 
     <title>My Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
-
-    <!-- <style >
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        .links{
-            width: 100%;
-            height: 50px;
-            position: fixed;
-            display: flex;
-        }
-
-        .links label {
-            padding: 10px 0;
-            flex-grow: 1;
-            cursor: pointer;
-            transition: all .4s;
-            text-align: center;
-            font-family: 'Arial';
-            font-size: 100%;
-            color: #fff;
-        }
-
-        .links label:hover {
-            background-color: rgba(255,255,255,.2);
-        }
-
-        .scroll {
-            display: flex;
-            width: 100vw;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        .sections {
-            transition:  all .4s;
-        }
-
-        input {
-            display: none;
-        }
-
-        .bloco {
-            width: 100vw;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-        }
-
-        #nodejs {
-            background-color: #7fbd42;
-        }
-
-        #bootstrap {
-            background-color: #69f;
-        }
-
-        #sass {
-            background-color: #faa;
-        }
-
-        #ruby {
-            background-color: #aaa;
-        }
-
-        #angular {
-            background-color: #414950;
-        }
-
-        #rd_bootstrap:checked ~ .sections {
-            margin-top: -100vh;
-        }
-
-        #rd_sass:checked ~ .sections {
-            margin-top: -200vh;
-        }
-
-        #rd_ruby:checked ~ .sections {
-            margin-top: -300vh;
-        }
-
-        #rd_angular:checked ~ .sections {
-            margin-top: -400vh;
-        }
-
-        .bloco img {
-            width: 40%;
-        }
-    </style> -->
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
     
     <nav class="links">
         <label for="rd_home">Home</label>
-        <label for="rd_bootstrap">Bootstrap</label>
-        <label for="rd_sass">Sass</label>
-        <label for="rd_ruby">Ruby</label>
+        <label for="rd_about">About</label>
+        <label for="rd_portfolio">Portfolio</label>
+        <label for="rd_cv">Curriculum Vitae</label>
         <label for="rd_angular">Angular</label>
     </nav>
 
     <div class="scroll">
         <input type="radio" name="navbar" id="rd_home" checked="true">
-        <input type="radio" name="navbar" id="rd_bootstrap">
-        <input type="radio" name="navbar" id="rd_sass">
-        <input type="radio" name="navbar" id="rd_ruby">
+        <input type="radio" name="navbar" id="rd_about">
+        <input type="radio" name="navbar" id="rd_portfolio">
+        <input type="radio" name="navbar" id="rd_cv">
         <input type="radio" name="navbar" id="rd_angular">
     
         <section class="sections">
             <section class="content" id="home">Home</section>
-            <section class="content" id="bootstrap">About</section>
-            <section class="content" id="sass">Portfolio</section>
-            <section class="content" id="ruby">Curriculum Vitae</section>
+            <section class="content" id="about">About</section>
+            <section class="content" id="portfolio">Portfolio</section>
+            <section class="content" id="cv">Curriculum Vitae</section>
             <section class="content" id="angular">Contact</section>
         </section>
     </div>
