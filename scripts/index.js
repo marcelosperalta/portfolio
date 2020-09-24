@@ -1,20 +1,28 @@
-const home1 = document.querySelector('.h1-first');
-const home2 = document.querySelector('.h1-second');
+const home1 = document.querySelector('.h1-one');
+const home2 = document.querySelector('.h1-two');
 
-function typeWriter(element1, element2) {
-    const lettersArray1 = element1.innerHTML.split('');
-    const lettersArray2 = element2.innerHTML.split('');
-    element1.innerHTML = '';
-    element2.innerHTML = '';
-    lettersArray1.forEach(function(letter, index) {
+function typeWriter(element) {
+    const lettersArray = element.innerHTML.split('');
+    element.innerHTML = '';
+    lettersArray.forEach(function(letter, index) {
         setTimeout(function(){
-            element1.innerHTML += letter;
-        }, 120 * index)
-    });
-    lettersArray2.forEach(function(letter, index) {
-        setTimeout(function(){
-            element2.innerHTML += letter;
+            element.innerHTML += letter;
         }, 120 * index)
     });
 }
-typeWriter(home1, home2);
+typeWriter(home1);
+
+function typeWriter2(element) {
+    const lettersArray = element.innerHTML.split('');
+    element.innerHTML = '';
+    lettersArray.forEach(function(letter, index) {
+        setTimeout(function(){
+            element.innerHTML += letter;
+        }, 120 * index)
+    });
+}
+typeWriter2(home2);
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+}

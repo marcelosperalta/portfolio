@@ -60,14 +60,15 @@
     flex-direction: column;
 }
 
-.scroll .sections .content p {
+.scroll .sections .content h1 {
     /* border: 1px solid red; */
     /* text-align: center; */
     /* margin: 60px auto; */
     font-family: 'Baloo Thambi 2', cursive;
     color: indianred;
+    font-size: 3rem;
 }
-.scroll .sections .content p::after{
+.scroll .sections .content h1::after{
     content: '|';
     margin-left: 5px;
     opacity: 1;
