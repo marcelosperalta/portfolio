@@ -12,7 +12,6 @@ function typeWriter(element1, element2, element3) {
                 if (element1.innerHTML === "Hi, I'm Marcelo Soares Peralta.") {
                     lettersArray2.forEach(function(letter, index) {
                         setTimeout(function(){
-                            element1.style.display = "none";
                             element2.style.display = "block";
                             element2.innerHTML += letter;
                         }, 120 * index)
