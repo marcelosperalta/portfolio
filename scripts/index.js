@@ -1,28 +1,24 @@
 const home1 = document.querySelector('.h1-one');
 const home2 = document.querySelector('.h1-two');
 
-function typeWriter(element) {
-    const lettersArray = element.innerHTML.split('');
-    element.innerHTML = '';
-    lettersArray.forEach(function(letter, index) {
-        setTimeout(function(){
-            element.innerHTML += letter;
-        }, 120 * index)
+function typeWriter(element1, element2, element3) {
+    const lettersArray1 = element1.innerHTML.split('');
+    const lettersArray2 = element2.innerHTML.split('');
+    element1.innerHTML = '';
+    element2.innerHTML = '';
+    lettersArray1.forEach(function(letter, index) {
+            setTimeout(function(){
+                element1.innerHTML += letter;
+                if (element1.innerHTML === "Hi, I'm Marcelo Soares Peralta.") {
+                    lettersArray2.forEach(function(letter, index) {
+                        setTimeout(function(){
+                            element1.style.display = "none";
+                            element2.style.display = "block";
+                            element2.innerHTML += letter;
+                        }, 120 * index)
+                    });
+                }
+            }, 120 * index)
     });
 }
-typeWriter(home1);
-
-function typeWriter2(element) {
-    const lettersArray = element.innerHTML.split('');
-    element.innerHTML = '';
-    lettersArray.forEach(function(letter, index) {
-        setTimeout(function(){
-            element.innerHTML += letter;
-        }, 120 * index)
-    });
-}
-typeWriter2(home2);
-
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-}
+typeWriter(home1, home2);

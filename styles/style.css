@@ -22,7 +22,7 @@
     text-align: center;
     font-family: 'Arial';
     font-size: 100%;
-    color: #fff;
+    color: #ffffff;
     user-select: none;
     text-decoration: none;
     font-family: 'Baloo Thambi 2', cursive;
@@ -30,10 +30,10 @@
 }
 .links label:hover,
 .links .cv:hover {
-    background-color: rgba(255,255,255,.2);
+    background-color: #ffffff33;
 }
 .links .cv:visited{
-    color: #fff;
+    color: #ffffff;
 }
 
 .scroll {
@@ -65,10 +65,19 @@
     /* text-align: center; */
     /* margin: 60px auto; */
     font-family: 'Baloo Thambi 2', cursive;
-    color: indianred;
+    color: #cd5b5b;
     font-size: 3rem;
 }
-.scroll .sections .content h1::after{
+.scroll .sections .content .h1-one::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+.scroll .sections .content .h1-two {
+    display: none;
+}
+.scroll .sections .content .h1-two::after {
     content: '|';
     margin-left: 5px;
     opacity: 1;
