@@ -81,8 +81,7 @@
     opacity: 1;
     animation: blink .7s infinite;
 } */
-
-@keyframes blink {
+/* @keyframes blink {
     0% {
         opacity: 1;
     }
@@ -92,21 +91,27 @@
     100% {
         opacity: 1;
     }
-}
+} */
 
 .scroll .sections .content > h1 {
     font-family: 'Baloo Thambi 2', cursive;
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 2rem;
+}
+.scroll .sections .content .dci-logo .dci-img {
+    margin: 20px;
+    border-radius: 50%;
+    width: 230px;
 }
 .scroll .sections .content .about-container {
     display: grid;
-    grid: repeat(2, 60px) / auto-flow 80px;
+    grid: repeat(2, 100px) / auto-flow 120px;
 }
-.scroll .sections .content .about-container > div {
-    background-color: #8ca0ff;
-    width: 50px;
-    height: 50px;
+.scroll .sections .content .about-container .about-img {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
 }
 
 .scroll #rd_about:checked ~ .sections {
