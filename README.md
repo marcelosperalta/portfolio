@@ -65,6 +65,8 @@ https://github.com/marcelosperalta
 
 - [Hover.css](http://ianlunn.github.io/Hover/)
 
+- [colors.lol](https://colors.lol/)
+
 ### **Guidelines**
 
 - [How to disable text selection highlighting](https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting)  

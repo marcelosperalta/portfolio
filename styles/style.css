@@ -113,15 +113,6 @@
     width: 80px;
     height: 80px;
 }
-/* .scroll .sections .content .dci-logo .dci-img {
-    display: inline-block;
-    vertical-align: middle;
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    transition-duration: 0.3s;
-    transition-property: transform;
-} */
-
 .scroll .sections .content .dci-logo .dci-img,
 .scroll .sections .content .about-container .about-img {
     background-color: #ffffff;
@@ -145,17 +136,6 @@
 .scroll .sections .content .about-container .about-img:active {
     transform: scale(1.1);
 }
-/* .scroll .sections .content .about-container .about-img:hover {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform; 
-} */
 
 .scroll #rd_about:checked ~ .sections {
     margin-top: -100vh;
@@ -171,19 +151,19 @@
 }
 
 .scroll .sections #home {
-    background-color: rgb(47, 43, 43);
+    background-color: #2f2b2b;
 }
 .scroll .sections #about {
-    background-color: #69f;
+    background-color: #9DBCD4;
 }
 .scroll .sections #portfolio {
-    background-color: #faa;
+    background-color: #6D5ACF;
 }
 .scroll .sections #cv {
-    background-color: #aaa;
+    background-color: #aaaaaa;
 }
 .scroll .sections #contact {
-    background-color: #414950;
+    background-color: #31859C;
 }
 
 footer {
