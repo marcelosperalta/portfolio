@@ -63,6 +63,8 @@ https://github.com/marcelosperalta
 
 - [nekoCalc](https://nekocalc.com/px-to-rem-converter)
 
+- [Hover.css](http://ianlunn.github.io/Hover/)
+
 ### **Guidelines**
 
 - [How to disable text selection highlighting](https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting)  
