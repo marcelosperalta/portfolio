@@ -12,10 +12,10 @@ I study web development at [DCI](https://digitalcareerinstitute.org/) in Berlin.
 - HTML  
 - CSS  
 - JavaScript  
-- React  
-- Node.js  
 - MongoDB  
 - Express  
+- React  
+- Node.js  
 
 ## **Portfolio**
 
