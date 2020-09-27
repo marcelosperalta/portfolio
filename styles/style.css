@@ -57,6 +57,9 @@
     align-items: center;
     flex-direction: column;
 }
+
+
+/* "Home */
 .scroll .sections .content .divs {
     display: flex;
     font-family: 'Baloo Thambi 2', cursive;
@@ -64,7 +67,7 @@
     font-size: 3rem;
     font-weight: bold;
 }
-/* "|" animation */
+/* "Home" > "|" animation */
 @keyframes blink {
     0% {
         opacity: 1;
@@ -82,6 +85,8 @@
     animation: blink .7s infinite;
 }
 
+
+/* "About" */
 .scroll .sections .content > h1 {
     font-family: 'Baloo Thambi 2', cursive;
     color: #ffffff;
@@ -111,7 +116,7 @@
     display: inline-block;
     vertical-align: middle;
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px #00000000;
     transition-duration: 0.3s;
     transition-property: transform;
 }
@@ -123,7 +128,18 @@
 .scroll .sections .content .about-container .about-img:active {
     transform: scale(1.1);
 }
+.scroll .sections .content .about-container {
+    display: grid;
+    grid: repeat(2, 100px) / auto-flow;
+}
 
+
+.scroll .sections .content .about-container {
+    display: grid;
+    grid: repeat(2, 100px) / auto-flow;
+}
+
+/* Scroll effect from "Home" to "Contact" */
 .scroll #rd_about:checked ~ .sections {
     margin-top: -100vh;
 }
@@ -136,12 +152,11 @@
 .scroll #rd_contact:checked ~ .sections {
     margin-top: -400vh;
 }
-
 .scroll .sections #home {
     background-color: #2f2b2b;
 }
 .scroll .sections #about {
-    background-color: #9DBCD4;
+    background-color: #247AFD;
 }
 .scroll .sections #portfolio {
     background-color: #6D5ACF;
@@ -153,6 +168,7 @@
     background-color: #31859C;
 }
 
+/* GitHub logo on Footer */
 footer {
     margin-top: -100px;
     display: flex;
