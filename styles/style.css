@@ -1,3 +1,19 @@
+.scroll .sections .content .divs {
+    display: flex;
+}
+
+.scroll .sections .content .divs .div1,
+.scroll .sections .content .divs .div2,
+.scroll .sections .content .divs .div3,
+.scroll .sections .content .divs .div4 {
+    color: purple;
+    font-size: 3rem;
+}
+.scroll .sections .content .divs .div2 {
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -83,7 +99,7 @@
     opacity: 1;
     animation: blink .7s infinite;
 } */
-/* @keyframes blink {
+@keyframes blink {
     0% {
         opacity: 1;
     }
@@ -93,7 +109,7 @@
     100% {
         opacity: 1;
     }
-} */
+}
 
 .scroll .sections .content > h1 {
     font-family: 'Baloo Thambi 2', cursive;
