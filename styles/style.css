@@ -59,7 +59,7 @@
 }
 
 
-/* "Home */
+/* "Home" section */
 .scroll .sections .content .divs {
     display: flex;
     font-family: 'Baloo Thambi 2', cursive;
@@ -86,7 +86,7 @@
 }
 
 
-/* "About" */
+/* "About" section */
 .scroll .sections .content > h1 {
     font-family: 'Baloo Thambi 2', cursive;
     color: #ffffff;
@@ -128,15 +128,10 @@
 .scroll .sections .content .about-container .about-img:active {
     transform: scale(1.1);
 }
-.scroll .sections .content .about-container {
-    display: grid;
-    grid: repeat(2, 100px) / auto-flow;
-}
 
-
-.scroll .sections .content .about-container {
-    display: grid;
-    grid: repeat(2, 100px) / auto-flow;
+/* "Portfolio" section */
+.scroll .sections .content .portfolio-container {
+    display: flex;
 }
 
 /* Scroll effect from "Home" to "Contact" */
