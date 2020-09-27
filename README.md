@@ -51,9 +51,9 @@ https://github.com/marcelosperalta
 
 ### **Layout Reference**
 
-- [Matthew Williams](http://findmatthew.com)
-
 - [Caitlyn Greffly](https://caitlyngreffly.com/)
+
+- [Matthew Williams](http://findmatthew.com)
 
 ### **Code Reference**
 
