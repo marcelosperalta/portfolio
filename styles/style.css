@@ -134,6 +134,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* position: absolute; */
 }
 .scroll .sections .content .portfolio-container img {
     margin: 20px;
@@ -150,7 +151,10 @@
 .scroll .sections .content .portfolio-container img:focus,
 .scroll .sections .content .portfolio-container img:active {
     transform: scale(1.1);
-    content: "TESTE";
+    content: '';
+    opacity: 1;
+    display: inline-block;
+    z-index: 999;
 }
 
 /* Scroll effect from "Home" to "Contact" */
