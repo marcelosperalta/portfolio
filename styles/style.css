@@ -146,15 +146,16 @@
     box-shadow: 0 0 1px #00000000;
     transition-duration: 0.3s;
     transition-property: transform;
+    border: 1px solid #ffffff;
 }
 .scroll .sections .content .portfolio-container img:hover,
 .scroll .sections .content .portfolio-container img:focus,
 .scroll .sections .content .portfolio-container img:active {
     transform: scale(1.1);
-    content: '';
+    /* content: '';
     opacity: 1;
     display: inline-block;
-    z-index: 999;
+    z-index: 999; */
 }
 
 /* Scroll effect from "Home" to "Contact" */
@@ -177,13 +178,13 @@
     background-color: #247AFD;
 }
 .scroll .sections #portfolio {
-    background-color: #6D5ACF;
+    background-color: #31859C;
 }
 .scroll .sections #cv {
     background-color: #aaaaaa;
 }
 .scroll .sections #contact {
-    background-color: #31859C;
+    background-color: #6D5ACF;
 }
 
 /* GitHub logo on Footer */
