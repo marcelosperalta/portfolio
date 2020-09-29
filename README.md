@@ -27,8 +27,6 @@ https://www.linkedin.com/in/marcelosoaresperalta/
 
 ### **Logo Reference**
 
-- [LinkedIn](https://brand.linkedin.com/downloads)
-
 - [GitHub](https://github.com/logos)
 
 ### **Layout Reference**
