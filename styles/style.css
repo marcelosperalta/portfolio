@@ -1,3 +1,8 @@
+/* variables */
+:root {
+    --font-family: 'Baloo Thambi 2', cursive;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +30,7 @@
     color: #ffffff;
     user-select: none;
     text-decoration: none;
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: var(--font-family);
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -62,7 +67,7 @@
 /* "Home" section */
 .scroll .sections .content .divs {
     display: flex;
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: var(--font-family);
     color: #cd5b5b;
     font-size: 3rem;
     font-weight: bold;
@@ -88,7 +93,7 @@
 
 /* "About" section */
 .scroll .sections .content > h1 {
-    font-family: 'Baloo Thambi 2', cursive;
+    font-family: var(--font-family);
     color: #ffffff;
     font-size: 2rem;
 }
@@ -129,6 +134,7 @@
     transform: scale(1.1);
 }
 
+
 /* "Portfolio" section */
 .scroll .sections .content .portfolio-container {
     display: flex;
@@ -139,7 +145,6 @@
 .scroll .sections .content .portfolio-container img {
     margin: 20px;
     width: 600px;
-
     display: inline-block;
     vertical-align: middle;
     transform: perspective(1px) translateZ(0);
@@ -155,12 +160,18 @@
     filter: blur(2px);
 }
 .scroll .sections .content .portfolio-container .portfolio-page .text {
-    visibility:hidden;
-    position:relative;
-    }
+    visibility: hidden;
+    position: relative;
+    /* bottom: 250px; */
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-family: var(--font-family);
+    font-weight: bold;
+    overflow: hidden;
+}
 .scroll .sections .content .portfolio-container .portfolio-page:hover .text {
-    visibility:visible;
-
+    visibility: visible;
 }
 
 /* Scroll effect from "Home" to "Contact" */
