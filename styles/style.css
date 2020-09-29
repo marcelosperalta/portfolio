@@ -162,10 +162,9 @@
 .scroll .sections .content .portfolio-container .portfolio-page .text {
     visibility: hidden;
     position: relative;
-    /* bottom: 250px; */
     text-align: center;
-    color: white;
-    font-size: 1.2rem;
+    color: #ffffff;
+    font-size: 1.3rem;
     font-family: var(--font-family);
     font-weight: bold;
     overflow: hidden;
@@ -173,6 +172,7 @@
 .scroll .sections .content .portfolio-container .portfolio-page:hover .text {
     visibility: visible;
 }
+
 
 /* Scroll effect from "Home" to "Contact" */
 .scroll #rd_about:checked ~ .sections {
@@ -188,21 +188,26 @@
     margin-top: -400vh;
 }
 .scroll .sections #home {
-    background-color: #2f2b2b;
+    background-color: #25274D;
+    /* background-color: #2f2b2b; */
 }
 .scroll .sections #about {
-    background-color: #4992D3;
-    ;
+    /* background-color: #4992D3; */
+    background-color: #464866;
 }
 .scroll .sections #portfolio {
-    background-color: #296CA8;
+    /* background-color: #296CA8; */
+    background-color: #AAABB8;
 }
 .scroll .sections #cv {
-    background-color: #1A456B;
+    /* background-color: #1A456B; */
+    background-color: #2E9CCA;
 }
 .scroll .sections #contact {
-    background-color: #153755;
+    /* background-color: #153755; */
+    background-color: #29648A;
 }
+
 
 /* GitHub logo on Footer */
 footer {

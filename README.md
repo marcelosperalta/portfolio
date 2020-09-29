@@ -1,6 +1,6 @@
 # My Portfolio
 
-Hi, I'm **Marcelo Soares Peralta**  
+Hi, I'm Marcelo Soares Peralta.  
 I'm a Web Developer.  
 
 ## **About**
@@ -38,9 +38,6 @@ marcelosperalta@gmail.com
 - LinkedIn  
 https://www.linkedin.com/in/marcelosoaresperalta/
 
-- GitHub  
-https://github.com/marcelosperalta
-
 ### **Logo Reference**
 
 - [LinkedIn](https://brand.linkedin.com/downloads)
@@ -65,7 +62,7 @@ https://github.com/marcelosperalta
 
 - [Hover.css](http://ianlunn.github.io/Hover/)
 
-- [colors.lol](https://colors.lol/)
+- [Visme](https://visme.co/blog/website-color-schemes/)
 
 ### **Guidelines**
 
@@ -88,8 +85,6 @@ https://github.com/marcelosperalta
 - [Canva](https://www.canva.com/)
 
 - [favicon.cc](https://www.favicon.cc/)
-
-<!-- - [Paint 3D](https://www.microsoft.com/de-de/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) -->
 
 ### **Screeshots**
 
