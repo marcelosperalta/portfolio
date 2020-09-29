@@ -152,17 +152,13 @@
 .scroll .sections .content .portfolio-container img:focus,
 .scroll .sections .content .portfolio-container img:active {
     transform: scale(1.1);
-    /* content: '';
-    opacity: 1;
-    display: inline-block;
-    z-index: 999; */
     filter: blur(2px);
 }
-.scroll .sections .content .portfolio-container #wrapper .text {
+.scroll .sections .content .portfolio-container .portfolio-page .text {
     visibility:hidden;
     position:relative;
     }
-.scroll .sections .content .portfolio-container #wrapper:hover .text {
+.scroll .sections .content .portfolio-container .portfolio-page:hover .text {
     visibility:visible;
 
 }
@@ -184,16 +180,17 @@
     background-color: #2f2b2b;
 }
 .scroll .sections #about {
-    background-color: #247AFD;
+    background-color: #4992D3;
+    ;
 }
 .scroll .sections #portfolio {
-    background-color: #31859C;
+    background-color: #296CA8;
 }
 .scroll .sections #cv {
-    background-color: #aaaaaa;
+    background-color: #1A456B;
 }
 .scroll .sections #contact {
-    background-color: #6D5ACF;
+    background-color: #153755;
 }
 
 /* GitHub logo on Footer */
