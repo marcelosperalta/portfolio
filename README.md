@@ -17,19 +17,6 @@ I study web development at [DCI](https://digitalcareerinstitute.org/) in Berlin.
 - React  
 - Node.js  
 
-## **Portfolio**
-
-- [Periodic Table](https://github.com/marcelosperalta/dci/tree/master/200303)
-- [Checkers](https://github.com/marcelosperalta/dci/tree/master/200306)
-- [Sky](https://github.com/marcelosperalta/dci/tree/master/200307)
-- [YouTube](https://github.com/marcelosperalta/dci/tree/master/200315)
-- [Full Webpage](https://github.com/marcelosperalta/dci/tree/master/200320)
-- [X mark](https://github.com/marcelosperalta/dci/tree/master/200321)
-- [Sign in page](https://github.com/marcelosperalta/dci/tree/master/200322)
-- [Dark Theme checkbox](https://github.com/marcelosperalta/dci/tree/master/200327)
-- [Dropdown Menu](https://github.com/marcelosperalta/dci/tree/master/200328)
-- [Bootstrap](https://github.com/marcelosperalta/dci/tree/master/200402)
-
 ## **Contact**
 
 - Email:  
