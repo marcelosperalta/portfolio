@@ -156,6 +156,15 @@
     opacity: 1;
     display: inline-block;
     z-index: 999; */
+    filter: blur(2px);
+}
+.scroll .sections .content .portfolio-container #wrapper .text {
+    visibility:hidden;
+    position:relative;
+    }
+.scroll .sections .content .portfolio-container #wrapper:hover .text {
+    visibility:visible;
+
 }
 
 /* Scroll effect from "Home" to "Contact" */
