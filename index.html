@@ -134,23 +134,22 @@
 
             <!-- contact -->
             <section class="content" id="contact">
-                <form
-                action="https://formspree.io/xyybzplp"
-                method="POST"
-                >
-                <label>
-                  Your email:
-                  <input type="text" name="_replyto">
-                </label>
-                <label>
-                  Your message:
-                  <textarea name="message"></textarea>
-                </label>
-              
-                <!-- your other form fields go here -->
-              
-                <button type="submit">Send</button>
-              </form>
+                <div class="content-container">
+                    <form
+                    action="https://formspree.io/xyybzplp"
+                    method="POST">
+
+                    <input placeholder="Name" type="text" name="name" >
+
+                    <input placeholder="E-mail" type="email" name="email" maxlength="150">
+
+                    <textarea placeholder="Your message" name="message" rows="6"></textarea>
+                    </label>
+
+
+                    <button type="submit">Send</button>
+                  </form>
+              </div>
             </section>
         </section>
     </div>
@@ -213,5 +212,4 @@
       xhr.send(data);
     }
   </script>
-
 </html>

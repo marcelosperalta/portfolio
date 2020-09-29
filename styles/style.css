@@ -173,6 +173,43 @@
 }
 
 
+/* Contact section */
+.scroll .sections .content .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scroll .sections .content .content-container input,
+.scroll .sections .content .content-container textarea,
+.scroll .sections .content .content-container button {
+    display: block;
+    padding-left: 10px;
+    width: 300px;
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #314455;
+    border: none;
+    border-radius: 5px;
+}
+.scroll .sections .content .content-container input::placeholder,
+.scroll .sections .content .content-container textarea::placeholder {
+    color: #ffffff;
+}
+.scroll .sections .content .content-container button {
+    width: 30%;
+    color: #ffffff;
+    padding-left: 0;
+}
+.scroll .sections .content .content-container button:hover {
+    color: #314455;
+    background-color: #ffffff;
+}
+
+
 /* Scroll effect from "Home" to "Contact" */
 .scroll #rd_about:checked ~ .sections {
     margin-top: -100vh;
@@ -246,14 +283,12 @@ footer {
     /* "Portfolio" section */
     .scroll .sections .content .portfolio-container {
         flex-direction: column;
-        
     }
     .scroll .sections .content .portfolio-container img {
         width: 100%;
         max-width: 300px;
         margin: 10px;
         padding: 0;
-        
     }
     .scroll .sections .content .portfolio-container img:hover,
     .scroll .sections .content .portfolio-container img:focus,
