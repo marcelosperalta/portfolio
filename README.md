@@ -88,6 +88,10 @@ https://www.linkedin.com/in/marcelosoaresperalta/
 
 ### **Screeshots**
 
-![screeshot1](./img/screen1.png)  
+![screeshot](./images/screenshot_page_home.png)  
 
-![screeshot1](./img/screen2.png)  
+![screeshot](./images/screenshot_page_about.png)  
+
+![screeshot](./images/screenshot_page_portfolio.png)  
+
+![screeshot](./images/screenshot_page_contact.png)  
