@@ -35,7 +35,7 @@ I study web development at [DCI](https://digitalcareerinstitute.org/) in Berlin.
 - Email:  
 marcelosperalta@gmail.com
 
-- LinkedIn  
+- LinkedIn:  
 https://www.linkedin.com/in/marcelosoaresperalta/
 
 ### **Logo Reference**

@@ -188,24 +188,19 @@
     margin-top: -400vh;
 }
 .scroll .sections #home {
-    background-color: #25274D;
-    /* background-color: #2f2b2b; */
+    background-color: #314455;
 }
 .scroll .sections #about {
-    /* background-color: #4992D3; */
-    background-color: #464866;
+    background-color: #644e5b;
 }
 .scroll .sections #portfolio {
-    /* background-color: #296CA8; */
-    background-color: #AAABB8;
+    background-color: #9e5a63;
 }
 .scroll .sections #cv {
-    /* background-color: #1A456B; */
-    background-color: #2E9CCA;
+    background-color: #c96567;
 }
 .scroll .sections #contact {
-    /* background-color: #153755; */
-    background-color: #29648A;
+    background-color: #97aabd;
 }
 
 
