@@ -44,8 +44,6 @@ https://www.linkedin.com/in/marcelosoaresperalta/
 
 - [GitHub](https://github.com/logos)
 
-<!-- - [pngfind](https://www.pngfind.com/mpng/hmbwbh_png-file-svg-icon-email-transparent-png/) -->
-
 ### **Layout Reference**
 
 - [Caitlyn Greffly](https://caitlyngreffly.com/)
