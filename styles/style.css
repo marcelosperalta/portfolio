@@ -3,11 +3,13 @@
     --font-family: 'Baloo Thambi 2', cursive;
 }
 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 /* navigation bar */
 .links {
@@ -41,6 +43,8 @@
     color: #ffffff;
 }
 
+
+/* sections */
 .scroll {
     display: flex;
     width: 100vw;
