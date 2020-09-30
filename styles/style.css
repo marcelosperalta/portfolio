@@ -289,13 +289,23 @@ footer {
         max-width: 300px;
         margin: 10px;
         padding: 0;
+        transform: none;
+        box-shadow: none;
+        transition-duration: none;
+        transition-property: none;
+        border: none;
     }
     .scroll .sections .content .portfolio-container img:hover,
     .scroll .sections .content .portfolio-container img:focus,
     .scroll .sections .content .portfolio-container img:active {
-        display: none;
+        transform: none;
+        filter: none;
     }
     .scroll .sections .content .portfolio-container .portfolio-page .text {
         display: none;
     }
-} 
+    /* GitHub logo on Footer */
+    footer {
+        display: none;
+    }
+}
