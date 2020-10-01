@@ -25,3 +25,16 @@ function typeWriter(div1, div2, div3, div4) {
     });
 }
 typeWriter(div1, div2, div3, div4);
+
+function enableScrollToTop() {
+    document.querySelector('.arrow').style.display = "block";
+}
+
+function disableScrollToTop() {
+    document.querySelector('.arrow').style.display = "none";
+}
+
+function scrollToTop(){
+    document.querySelector('#rd_home').checked = "true";
+    document.querySelector('.arrow').style.display = "none";
+}

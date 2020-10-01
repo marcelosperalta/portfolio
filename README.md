@@ -51,6 +51,8 @@ https://www.linkedin.com/in/marcelosoaresperalta/
 
 - [How to disable text selection highlighting](https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting)  
 
+- [Scroll To Top or Back To Top Button using HTML & CSS](https://www.codingnepalweb.com/2020/04/scroll-to-top-or-back-to-top-button.html)  
+
 - [Tutorial: Navegação One Page com efeito Scroll (sem javascript)](https://www.youtube.com/watch?v=QiI6PbD6Ei4)  
 
 - [Ícone do site na aba do browser](http://henriquecorrea.com/news/Icone_do_site_na_aba_do_browser)  
@@ -71,7 +73,11 @@ https://www.linkedin.com/in/marcelosoaresperalta/
 
 - [Formspree](https://formspree.io/)
 
+- [Font Awesome](https://fontawesome.com/)
+
 ### **Screeshots**
+
+#### Desktop Version
 
 ![screeshot](./images/screenshot_page_home.png)  
 
@@ -80,3 +86,13 @@ https://www.linkedin.com/in/marcelosoaresperalta/
 ![screeshot](./images/screenshot_page_portfolio.png)  
 
 ![screeshot](./images/screenshot_page_contact.png)  
+
+#### Mobile Version
+
+![screeshot](./images/screenshot_mobile_home.png)  
+
+![screeshot](./images/screenshot_mobile_about.png)  
+
+![screeshot](./images/screenshot_mobile_portfolio.png)  
+
+![screeshot](./images/screenshot_mobile_contact.png)  

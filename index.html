@@ -22,6 +22,15 @@
 </head>
 
 <body>
+    <!-- "scroll to top" button -->
+    <div onclick="scrollToTop()" class="arrow-mobile">
+        <div class="arrow">
+        <a title="Back to Top">
+            <span class="fas fa-angle-up"></span>
+        </a>
+     </div>
+    </div>
+
     <!-- navigation bar -->
     <nav class="links">
         <label for="rd_home">Home</label>
@@ -36,11 +45,11 @@
 
     <!-- sections -->
     <div class="scroll">
-        <input type="radio" name="navbar" id="rd_home" checked="true">
-        <input type="radio" name="navbar" id="rd_about">
-        <input type="radio" name="navbar" id="rd_portfolio">
+        <input type="radio" name="navbar" id="rd_home" checked="true" onclick="disableScrollToTop()">
+        <input type="radio" name="navbar" id="rd_about" onclick="enableScrollToTop()">
+        <input type="radio" name="navbar" id="rd_portfolio" onclick="enableScrollToTop()">
         <!-- <input type="radio" name="navbar" id="rd_cv"> -->
-        <input type="radio" name="navbar" id="rd_contact">
+        <input type="radio" name="navbar" id="rd_contact" onclick="enableScrollToTop()">
     
         <section class="sections">
             <!-- home -->
@@ -162,6 +171,7 @@
         </section>
     </div>
 
+    <!-- GitHub logo on footer -->
     <footer class="my-footer">
         <a href="https://github.com/marcelosperalta/portfolio">
             <img class="my-git-logo" src="./images/logo-github-footer.png" alt="GitHub">
@@ -219,6 +229,9 @@
           xhr.send(data);
         }
     </script>
+
+    <!-- "scroll to top" button configuration using https://fontawesome.com/ -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 
 </html>

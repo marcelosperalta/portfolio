@@ -177,7 +177,7 @@
 }
 
 
-/* Contact section */
+/* "Contact" section */
 .scroll .sections .content .content-container {
     display: flex;
     flex-direction: column;
@@ -214,7 +214,7 @@
 }
 
 
-/* Scroll effect from "Home" to "Contact" */
+/* scroll effect from "Home" to "Contact" */
 .scroll #rd_about:checked ~ .sections {
     margin-top: -100vh;
 }
@@ -244,7 +244,35 @@
 }
 
 
-/* GitHub logo on Footer */
+/* "scroll to top" button */
+.arrow {
+    display: none;
+    margin-top: 0vh;
+    position: fixed;
+    bottom: 30px;
+    right: 100px;
+    z-index: 9;
+    cursor: pointer;
+}
+.arrow a {
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: transparent;
+    display: block;
+    border-radius: 5px;
+    color: inherit;
+    border: 4px white solid;
+}
+.arrow a span {
+    color: white;
+    font-size: 25px;
+    line-height: 39px;
+    margin-top: -4px;
+}
+
+
+/* GitHub logo on footer */
 footer {
     margin-top: -100px;
     display: flex;
@@ -306,6 +334,10 @@ footer {
         filter: none;
     }
     .scroll .sections .content .portfolio-container .portfolio-page .text {
+        display: none;
+    }
+    /* "scroll to top" button */
+    .arrow-mobile {
         display: none;
     }
     /* GitHub logo on Footer */
