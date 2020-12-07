@@ -143,11 +143,22 @@
 .scroll .sections .content .portfolio-container {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.scroll .sections .content .portfolio-container a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-.scroll .sections .content .portfolio-container img {
+.scroll .sections .content .portfolio-container a img,
+.scroll .sections .content .portfolio-container a p {
+    width: 90%;
+    vertical-align: baseline;
+}
+.scroll .sections .content .portfolio-container a img {
     margin: 20px;
-    width: 600px;
     display: inline-block;
     vertical-align: middle;
     transform: perspective(1px) translateZ(0);
@@ -231,13 +242,13 @@
     background-color: #314455;
 }
 .scroll .sections #about {
-    background-color: #644e5b;
+    background-color: #083054;
 }
 .scroll .sections #portfolio {
-    background-color: #9e5a63;
+    background-color: #364654;
 }
 .scroll .sections #cv {
-    background-color: #c96567;
+    background-color: #4d6e8b;
 }
 .scroll .sections #contact {
     background-color: #97aabd;
@@ -314,7 +325,10 @@ footer {
     }
     /* "Portfolio" section */
     .scroll .sections .content .portfolio-container {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .scroll .sections .content .portfolio-container img {
         width: 100%;
