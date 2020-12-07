@@ -96,7 +96,9 @@ https://www.linkedin.com/in/marcelosoaresperalta/
  <img src="./images/screenshot_mobile_contact.png" width="250px"/>
 </div>
 
-<!-- ![screeshot](./images/screenshot_mobile_home.png)  
+<!-- 
+![screeshot](./images/screenshot_mobile_home.png)  
 ![screeshot](./images/screenshot_mobile_about.png)  
 ![screeshot](./images/screenshot_mobile_portfolio.png)  
-![screeshot](./images/screenshot_mobile_contact.png)   -->
+![screeshot](./images/screenshot_mobile_contact.png)   
+-->
