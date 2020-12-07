@@ -90,10 +90,10 @@ https://www.linkedin.com/in/marcelosoaresperalta/
 #### Mobile Version
 
 <div align="center">
- <img src="./images/screenshot_mobile_home.png" width="250px"/>
- <img src="./images/screenshot_mobile_about.png" width="250px"/>
- <img src="./images/screenshot_mobile_portfolio.png" width="250px"/>
- <img src="./images/screenshot_mobile_contact.png" width="250px"/>
+ <img src="./images/screenshot_mobile_home.png" width="300px"/>
+ <img src="./images/screenshot_mobile_about.png" width="300px"/>
+ <img src="./images/screenshot_mobile_portfolio.png" width="300px"/>
+ <img src="./images/screenshot_mobile_contact.png" width="300px"/>
 </div>
 
 <!-- 
