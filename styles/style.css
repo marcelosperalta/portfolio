@@ -330,9 +330,11 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    .scroll .sections .content .portfolio-container img {
+    .scroll .sections .content .portfolio-container a {
         width: 100%;
-        max-width: 300px;
+    }
+    .scroll .sections .content .portfolio-container a img {
+        width: 65%;
         margin: 10px;
         padding: 0;
         transform: none;
