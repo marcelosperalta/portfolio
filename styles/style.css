@@ -102,22 +102,22 @@
     font-size: 2rem;
     text-align: center;
 }
-.scroll .sections .content .about-container {
-    display: grid;
-    grid: repeat(2, 100px) / auto-flow;
-}
 .scroll .sections .content .dci-logo .dci-img {
     width: 300px;
     align-items: center;
     justify-content: center;
 }
+.scroll .sections .content .about-container {
+    display: grid;
+    grid: repeat(2, 90px) / auto-flow;
+    grid-gap: 20px;
+}
 .scroll .sections .content .about-container .about-img {
-    width: 80px;
+    width: 85px;
 }
 .scroll .sections .content .dci-logo .dci-img,
 .scroll .sections .content .about-container .about-img {
     background-color: #ffffff;
-    margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 10px;
@@ -291,6 +291,26 @@ footer {
     justify-content: center;
 }
 
+@media (max-width: 1600px) {
+    .links label,
+    .links .cv {
+        font-size: .9rem;
+    }
+    /* "About" section */
+    .scroll .sections .content > h1 {
+        font-size: 1.2rem;
+    }
+    .scroll .sections .content .dci-logo .dci-img {
+        width: 200px;
+    }
+    .scroll .sections .content .about-container {
+        display: grid;
+        grid: repeat(2, 70px) / auto-flow;
+    }
+    .scroll .sections .content .about-container .about-img {
+        width: 70px;
+    }
+}
 
 /* Mobile version */
 @media (max-width: 1024px) {
@@ -321,7 +341,6 @@ footer {
     .scroll .sections .content .dci-logo .dci-img,
     .scroll .sections .content .about-container .about-img {
         margin-bottom: 20px;
-        margin-left: 10px;
     }
     /* "Portfolio" section */
     .scroll .sections .content .portfolio-container {
